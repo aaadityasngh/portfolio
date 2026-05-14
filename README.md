@@ -113,4 +113,3 @@ No build step is required.
 - Email: ddeaditya@gmail.com
 
 If you like this portfolio style, feel free to fork and adapt it for your own profile.
-
