@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aditya Singh — AI/ML Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">AS<span class="dot">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about" class="mob-link">About</a>
+      <a href="#projects" class="mob-link">Projects</a>
+      <a href="#skills" class="mob-link">Skills</a>
+      <a href="#achievements" class="mob-link">Achievements</a>
+      <a href="#contact" class="mob-link">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-bg">
+      <div class="grid-overlay"></div>
+      <div class="glow glow-1"></div>
+      <div class="glow glow-2"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-text">
+        <div class="hero-tag reveal">
+          <span class="tag-dot"></span>
+          Available for Internships & Opportunities
+        </div>
+        <h1 class="hero-name reveal delay-1">
+          Hey, I'm<br />
+          <span class="gradient-text">Aditya Singh</span>
+        </h1>
+        <p class="hero-role reveal delay-2">
+          <span class="mono">~/</span> AI &amp; ML Engineer
+        </p>
+        <p class="hero-desc reveal delay-3">
+          B.Tech CSE (AI&ML) student building intelligent systems — from RAG pipelines and explainable ML dashboards to cloud-deployed models. I turn data into decisions.
+        </p>
+        <div class="hero-actions reveal delay-4">
+          <a href="#projects" class="btn-primary">View Projects</a>
+          <a href="#contact" class="btn-ghost">Get in Touch</a>
+        </div>
+        <div class="hero-socials reveal delay-5">
+          <a href="https://linkedin.com/in/adityasingh-julyai/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <a href="https://github.com/aaadityasngh" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          </a>
+          <a href="mailto:ddeaditya@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 010 19.366V5.457c0-.402.152-.767.4-1.044.014-.015.028-.028.043-.042.28-.261.658-.42 1.07-.42h.2l.29.024L12 10.884l9.96-6.91.29-.024h.214c.41 0 .787.159 1.067.42.015.014.03.027.044.042.248.277.4.642.4 1.044l.024.001z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="hero-photo reveal delay-3">
+        <div class="photo-frame">
+          <img src="photo.png" alt="Aditya Singh" />
+          <div class="photo-ring"></div>
+          <div class="photo-badge">
+            <span class="mono">B.Tech</span>
+            <span>AI/ML '27</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span class="mono">scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section about">
+    <div class="container">
+      <div class="section-label reveal"><span class="mono">01 /</span> About</div>
+      <div class="about-grid">
+        <div class="about-text reveal delay-1">
+          <h2 class="section-title">Building AI that<br /><span class="gradient-text">actually works.</span></h2>
+          <p>I'm a 2nd-year B.Tech student at ITM University, Gwalior specializing in Artificial Intelligence &amp; Machine Learning. My passion lies in building end-to-end ML systems — not just models, but complete pipelines that go from raw data to deployed, interpretable applications.</p>
+          <p>From co-founding a student startup under university incubation to publishing research on computer vision at the undergraduate level, I push the boundaries of what students can build.</p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-num gradient-text">7.25</span>
+              <span class="stat-label">CGPA</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num gradient-text">8.08</span>
+              <span class="stat-label">Sem 5 SGPA</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num gradient-text">4+</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num gradient-text">1</span>
+              <span class="stat-label">Publication</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-right reveal delay-2">
+          <div class="edu-card">
+            <div class="edu-icon">🎓</div>
+            <div class="edu-details">
+              <h3>ITM University, Gwalior</h3>
+              <p class="mono">B.Tech CSE (AI &amp; ML)</p>
+              <p class="edu-date">Aug 2023 – May 2027</p>
+              <div class="courses">
+                <span>Machine Learning</span>
+                <span>Deep Learning</span>
+                <span>Pattern Recognition</span>
+                <span>OS</span>
+                <span>DBMS</span>
+                <span>Computer Networks</span>
+              </div>
+            </div>
+          </div>
+          <div class="pub-card">
+            <div class="pub-tag mono">📄 Publication</div>
+            <p>"Design and Implementation of a MATLAB-Based Vehicle Type Identification System Using HOG Feature Extraction and SVM Classification"</p>
+            <p class="pub-journal mono">IJSRCSEIT — 2026</p>
+            <span class="pub-status">Accepted</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section projects">
+    <div class="container">
+      <div class="section-label reveal"><span class="mono">02 /</span> Projects</div>
+      <h2 class="section-title reveal delay-1">Things I've <span class="gradient-text">Built.</span></h2>
+      <div class="projects-grid">
+
+        <div class="project-card reveal delay-1" data-tags="Flask,AWS,Azure,Scikit-learn">
+          <div class="project-num mono">01</div>
+          <div class="project-top">
+            <div class="project-icon">⚙️</div>
+            <div class="project-links">
+              <a href="https://github.com/aaadityasngh" target="_blank" rel="noopener" title="GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3>End-to-End ML Pipeline with Cloud Deployment</h3>
+          <p>Modular ML pipeline covering preprocessing, training, validation &amp; inference. Deployed on AWS Elastic Beanstalk &amp; Azure App Service for scalable production inference.</p>
+          <div class="project-tags">
+            <span>Flask</span><span>AWS</span><span>Azure</span><span>Scikit-learn</span>
+          </div>
+        </div>
+
+        <div class="project-card featured reveal delay-2" data-tags="LangChain,FAISS,Streamlit">
+          <div class="project-num mono">02</div>
+          <div class="project-featured-badge">Featured</div>
+          <div class="project-top">
+            <div class="project-icon">🤖</div>
+            <div class="project-links">
+              <a href="https://github.com/aaadityasngh" target="_blank" rel="noopener" title="GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3>RAG Chatbot for Document QA</h3>
+          <p>Retrieval-Augmented Generation pipeline for document Q&amp;A using FAISS vector search, embedding-driven retrieval, and prompt-grounded generation for contextual conversations.</p>
+          <div class="project-tags">
+            <span>LangChain</span><span>FAISS</span><span>Streamlit</span><span>NLP</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal delay-3" data-tags="SHAP,Streamlit,Python">
+          <div class="project-num mono">03</div>
+          <div class="project-top">
+            <div class="project-icon">📊</div>
+            <div class="project-links">
+              <a href="https://github.com/aaadityasngh" target="_blank" rel="noopener" title="GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3>Explainable ML Dashboard</h3>
+          <p>Model interpretability dashboard using SHAP values for feature-level prediction analysis. Transparent classification output visualization for tabular datasets.</p>
+          <div class="project-tags">
+            <span>SHAP</span><span>Streamlit</span><span>Python</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal delay-4" data-tags="MATLAB,HOG,SVM,CV">
+          <div class="project-num mono">04</div>
+          <div class="project-top">
+            <div class="project-icon">🚗</div>
+            <div class="project-links">
+              <a href="https://github.com/aaadityasngh" target="_blank" rel="noopener" title="GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3>Vehicle Type Identification — HOG + SVM</h3>
+          <p>Vehicle classification using Histogram of Oriented Gradients + SVM. Published research evaluating feature extraction effectiveness for image-based vehicle category prediction.</p>
+          <div class="project-tags">
+            <span>MATLAB</span><span>HOG</span><span>SVM</span><span>CV</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section skills-section">
+    <div class="container">
+      <div class="section-label reveal"><span class="mono">03 /</span> Skills</div>
+      <h2 class="section-title reveal delay-1">Tech <span class="gradient-text">Stack.</span></h2>
+      <div class="skills-grid">
+        <div class="skill-group reveal delay-1">
+          <h3 class="skill-group-title"><span class="mono">01</span> Languages</h3>
+          <div class="skill-chips">
+            <div class="chip">Python</div>
+            <div class="chip">SQL</div>
+            <div class="chip">C++</div>
+          </div>
+        </div>
+        <div class="skill-group reveal delay-2">
+          <h3 class="skill-group-title"><span class="mono">02</span> Machine Learning</h3>
+          <div class="skill-chips">
+            <div class="chip">Scikit-learn</div>
+            <div class="chip">Data Preprocessing</div>
+            <div class="chip">Feature Engineering</div>
+            <div class="chip">Model Evaluation</div>
+            <div class="chip">Classification</div>
+            <div class="chip">Regression</div>
+            <div class="chip">Hyperparameter Tuning</div>
+          </div>
+        </div>
+        <div class="skill-group reveal delay-3">
+          <h3 class="skill-group-title"><span class="mono">03</span> AI / Deep Learning</h3>
+          <div class="skill-chips">
+            <div class="chip">TensorFlow</div>
+            <div class="chip">PyTorch</div>
+            <div class="chip">LangChain</div>
+            <div class="chip">FAISS</div>
+            <div class="chip">SHAP</div>
+            <div class="chip">NLP</div>
+          </div>
+        </div>
+        <div class="skill-group reveal delay-4">
+          <h3 class="skill-group-title"><span class="mono">04</span> Deployment / MLOps</h3>
+          <div class="skill-chips">
+            <div class="chip">Flask</div>
+            <div class="chip">Streamlit</div>
+            <div class="chip">REST APIs</div>
+            <div class="chip">Docker</div>
+          </div>
+        </div>
+        <div class="skill-group reveal delay-5">
+          <h3 class="skill-group-title"><span class="mono">05</span> Tools &amp; Cloud</h3>
+          <div class="skill-chips">
+            <div class="chip">Git</div>
+            <div class="chip">GitHub</div>
+            <div class="chip">Linux</div>
+            <div class="chip">AWS</div>
+            <div class="chip">Azure</div>
+          </div>
+        </div>
+        <div class="skill-group reveal delay-6">
+          <h3 class="skill-group-title"><span class="mono">06</span> Certifications</h3>
+          <div class="skill-chips">
+            <div class="chip in-progress">Google Data Analytics Professional</div>
+            <div class="chip in-progress">IBM Applied AI Professional</div>
+            <div class="chip planned">Azure AI-900 (Planned)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section id="achievements" class="section achievements-section">
+    <div class="container">
+      <div class="section-label reveal"><span class="mono">04 /</span> Achievements</div>
+      <h2 class="section-title reveal delay-1">Recognition & <span class="gradient-text">Ventures.</span></h2>
+      <div class="achievements-grid">
+        <div class="ach-card reveal delay-1">
+          <div class="ach-icon">🥉</div>
+          <h3>3rd Prize — TechRhythm Hackathon</h3>
+          <p>Secured 3rd Prize at Kurukshetra Hackathon 2025, ITM University</p>
+        </div>
+        <div class="ach-card reveal delay-2">
+          <div class="ach-icon">🌐</div>
+          <h3>IEEE YESIST12 Finalist</h3>
+          <p>Finalist in IEEE YESIST12 national innovation track, selected for MGR 2025 international innovation participation</p>
+        </div>
+        <div class="ach-card reveal delay-3">
+          <div class="ach-icon">🇮🇳</div>
+          <h3>Smart India Hackathon</h3>
+          <p>Finalist in SIH innovation rounds and multiple university-level AI hackathons</p>
+        </div>
+        <div class="ach-card reveal delay-4">
+          <div class="ach-icon">🚀</div>
+          <h3>Co-founded LastMinTCKT</h3>
+          <p>Co-founded a student startup under university incubation support for early-stage student product exploration</p>
+        </div>
+        <div class="ach-card reveal delay-5">
+          <div class="ach-icon">📄</div>
+          <h3>Published Research</h3>
+          <p>Research paper accepted in peer-reviewed IJSRCSEIT journal — undergraduate-level publication on Computer Vision</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <div class="section-label reveal"><span class="mono">05 /</span> Contact</div>
+      <div class="contact-inner">
+        <div class="contact-text reveal delay-1">
+          <h2 class="section-title">Let's <span class="gradient-text">Connect.</span></h2>
+          <p>I'm open to internship opportunities, research collaborations, and interesting AI/ML projects. Feel free to reach out!</p>
+          <div class="contact-links">
+            <a href="mailto:ddeaditya@gmail.com" class="contact-item">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 010 19.366V5.457c0-.402.152-.767.4-1.044.014-.015.028-.028.043-.042.28-.261.658-.42 1.07-.42h.2l.29.024L12 10.884l9.96-6.91.29-.024h.214c.41 0 .787.159 1.067.42.015.014.03.027.044.042.248.277.4.642.4 1.044l.024.001z"/></svg>
+              <span>ddeaditya@gmail.com</span>
+            </a>
+            <a href="tel:+919407873195" class="contact-item">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+              <span>+91 94078 73195</span>
+            </a>
+            <a href="https://linkedin.com/in/adityasingh-julyai/" target="_blank" rel="noopener" class="contact-item">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              <span>LinkedIn Profile</span>
+            </a>
+            <a href="https://github.com/aaadityasngh" target="_blank" rel="noopener" class="contact-item">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              <span>GitHub Profile</span>
+            </a>
+          </div>
+          <div class="contact-location mono">📍 Mumbai, Maharashtra</div>
+        </div>
+        <div class="contact-cta reveal delay-2">
+          <div class="cta-card">
+            <p class="mono cta-label">Looking for</p>
+            <h3>Internships<br />& Collaborations</h3>
+            <p>AI/ML • NLP • Computer Vision • MLOps</p>
+            <a href="mailto:ddeaditya@gmail.com" class="btn-primary">Send Email</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <span class="nav-logo">AS<span class="dot">.</span></span>
+        <p class="mono">Aditya Singh © 2025</p>
+        <div class="footer-links">
+          <a href="https://www.linkedin.com/in/adityasingh-julyai/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/aaadityasngh" target="_blank" rel="noopener">GitHub</a>
+          <a href="mailto:ddeaditya@gmail.com">Email</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
